@@ -1,0 +1,64 @@
+.ingredients-section {
+    background-image: url("../../assets/images/ingredients_background.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 102px;
+}
+
+.ingredients-section .col-5 {
+    float: right;
+    margin-right: 42px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.ingredients-section .col-5 .title {
+    color: #ffffff;
+    font-family: Yeseva, sans-serif;
+    font-size: 36px;
+    line-height: 24px;
+    padding: 0;
+    margin: 85px 0 0;
+    text-align: center;
+}
+
+.ingredients-section .col-5 .divider {
+    background: url("../../assets/images/ingredients_divider.png") -20px -9px no-repeat;
+    display: block;
+    margin: 21px auto 21px;
+    width: 241px;
+    height: 30px;
+}
+
+.ingredients-section .col-5 .description {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 60px;
+    margin: 0;
+}
+
+.ingredients-section .col-5 .ingredients {
+    margin: 65px 78px 71px;
+}
+
+.ingredients-section .ingredients div {
+    display: inline-block;
+    margin: 0 10px;
+    width: 115px;
+    height: 115px;
+}
+
+.ingredients-section .ingredients .ing-1 {
+    background: url("../../assets/images/ingredients.png") -14px 0 no-repeat;
+}
+
+.ingredients-section .ingredients .ing-2 {
+    background: url("../../assets/images/ingredients.png") -154px 0 no-repeat;
+}
+
+.ingredients-section .ingredients .ing-3 {
+    background: url("../../assets/images/ingredients.png") -294px 0 no-repeat;
+}

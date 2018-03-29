@@ -1,0 +1,55 @@
+.about-section {
+    background-image: url("../../assets/images/about_background.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 108px 0 92px;
+}
+
+.about-section .col-4 {
+    margin-left: 106px;
+}
+
+.about-section .col-4 .title {
+    color: rgb(204,153,0);
+    font-family: Yeseva, sans-serif;
+    font-size: 36px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.about-section .col-4 .divider {
+    background: url("../../assets/images/about_divider.png") -23px -9px no-repeat;
+    display: block;
+    margin: 19px auto 24px;
+    width: 241px;
+    height: 30px;
+}
+
+.about-section .col-4 .description {
+    color: rgb(76,76,76);
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    line-height: 24px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.about-section .col-4 .cook-img {
+    background: url(../../assets/images/cook.png) -16px 0 no-repeat;
+    display: block;
+    margin: 43px 0 0 139px;
+    width: 222px;
+    height: 229px;
+}
+
+.about-section .col-6 {
+    margin-left: 20px;
+}
+
+.about-section .col-6 img {
+    margin: -55px -19px;
+}

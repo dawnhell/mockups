@@ -1,0 +1,123 @@
+footer {
+    background: #191919;
+    padding: 57px 0 65px
+}
+
+footer .col-3 {
+    margin-right: 30px;
+}
+
+footer .col-3.about {
+    margin-left: 38px;
+}
+
+footer .col-3:last-child {
+    margin-right: 0;
+}
+
+footer .col-3 .divider {
+    background: url("../../assets/images/footer_divider.png") -1px -1px no-repeat;
+    display: block;
+    margin: 9px auto 14px;
+    width: 210px;
+    height: 30px;
+}
+
+footer .col-3 .title {
+    font-family: Yeseva, sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+footer .about .description {
+    font-family: OpenSans, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+footer .col-3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+footer .col-3 li {
+    font-family: OpenSans, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24px;
+}
+
+footer .opening-hours .payments {
+    margin-top: 48px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+footer .payments a {
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    margin-right: 3px;
+    transition: all .3s;
+}
+
+footer .payments a:hover {
+    transform: scale(1.2);
+}
+
+footer .opening-hours .paycard-1 {
+    background: url("../../assets/images/payments_sprite.png") -3px 0 no-repeat;
+}
+
+footer .opening-hours .paycard-2 {
+    background: url("../../assets/images/payments_sprite.png") -35px 0 no-repeat;
+}
+
+footer .opening-hours .paycard-3 {
+    background: url("../../assets/images/payments_sprite.png") -67px 0 no-repeat;
+}
+
+footer .opening-hours .paycard-4 {
+    background: url("../../assets/images/payments_sprite.png") -100px 0 no-repeat;
+}
+
+footer .location .socials {
+    margin-top: 48px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+footer .socials a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    transition: all .3s;
+}
+
+footer .socials a:hover {
+    transform: scale(1.2);
+}
+
+footer .socials .facebook-social {
+    background: url("../../assets/images/footer_socials_sprite.png") 0 0 no-repeat;
+}
+
+footer .socials .youtube-social {
+    background: url("../../assets/images/footer_socials_sprite.png") -20px 0 no-repeat;
+}
+
+footer .socials .twitter-social {
+    background: url("../../assets/images/footer_socials_sprite.png") -45px 0 no-repeat;
+}
+
+footer .socials .fake-social {
+    background: url("../../assets/images/footer_socials_sprite.png") -73px 0 no-repeat;
+}

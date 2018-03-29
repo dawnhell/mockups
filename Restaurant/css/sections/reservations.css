@@ -1,0 +1,128 @@
+.reservations-section {
+    background-image: url("../../assets/images/about_background.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 103px;
+}
+
+.reservations-section .food-1 {
+    background: url("../../assets/images/food_1.png") 0 0 no-repeat;
+    display: block;
+    width: 270px;
+    height: 507px;
+    margin-left: 37px;
+}
+
+.reservations-section .food-2 {
+    background: url("../../assets/images/food_2.png") 0 0 no-repeat;
+    display: block;
+    width: 270px;
+    height: 507px;
+    margin-left: 67px;
+}
+
+.reservations-section .col-4 {
+    margin-left: 169px;
+}
+
+.reservations-section .reservation {
+
+}
+
+.reservations-section .title {
+    color: rgb(204, 153, 0);
+    font-family: Yeseva, sans-serif;
+    font-size: 36px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0;
+    margin: 5px 0 0;
+}
+
+.reservations-section .divider {
+    background: url("../../assets/images/menu_divider.png") -13px 0 no-repeat;
+    display: block;
+    margin: 18px auto 25px;
+    width: 241px;
+    height: 30px;
+}
+
+.reservations-section .description {
+    color: #4c4c4c;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.reservations-section .description.padding-top {
+    padding-top: 10px;
+}
+
+.reservations-section form {
+    margin-top: 14px;
+}
+
+.reservations-section form .input-field {
+    display: block;
+    margin-left: -2px;
+    margin-top: 25px;
+    float: left;
+    width: 200px;
+    position: relative;
+}
+
+.reservations-section form .input-field:nth-child(2n + 1) {
+    margin-right: 32px;
+}
+
+.reservations-section .input-field label {
+    display: block;
+    color: #c9a131;
+    font-family: OpenSansBold, sans-serif;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.reservations-section .input-field input {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #e2d3a6;
+    color: #7c7c7c;
+    font-family: OpenSansItalic, sans-serif;
+    font-size: 16px;
+    padding: 8px 15px;
+    width: 168px;
+}
+
+.reservations-section form button {
+    background: #c9a131;
+    border: none;
+    color: #ffffff;
+    font-family: OpenSans, sans-serif;
+    font-size: 16px;
+    padding: 9px 60px;
+    margin-top: 33px;
+}
+
+.reservations-section form .calendar-icon {
+    background: url("../../assets/images/calendar_icon.png") 2px 0 no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 31px;
+    right: 8px;
+}
+
+.reservations-section form .arrow-icon {
+    background: url("../../assets/images/arrow_icon.png") 3px 1px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: 37px;
+    right: 8px;
+}

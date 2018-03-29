@@ -1,0 +1,81 @@
+.clearfix:after {
+    clear: both;
+    display: table;
+    content: '';
+    font-size: 0;
+}
+
+@font-face {
+    font-family: GentiumBasic;
+    src: url("../assets/fonts/Gentium/GenBasB.ttf");
+}
+
+@font-face {
+    font-family: GentiumBasicBold;
+    src: url("../assets/fonts/Gentium/GenBkBasB.ttf");
+}
+
+@font-face {
+    font-family: Yeseva;
+    src: url("../assets/fonts/Yeseva/YesevaOne.otf");
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("../assets/fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../assets/fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url("../assets/fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSansItalic;
+    src: url("../assets/fonts/OpenSans/OpenSans-Italic.ttf");
+}
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-2 {
+    width: 270px;
+    float: left;
+}
+
+.col-3 {
+    width: 370px;
+    float: left;
+}
+
+.col-4 {
+    width: 430px;
+    float: left;
+}
+
+.col-5 {
+    width: 570px;
+    float: left;
+}
+
+.col-6 {
+    width: 670px;
+    float: left;
+}
+
+.col-7 {
+    width: 770px;
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}

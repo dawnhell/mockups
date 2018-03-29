@@ -1,0 +1,99 @@
+.menu-section {
+    background-image: url("../../assets/images/menu_background.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 24px 0 75px;
+}
+
+.menu-section .col-5:first-child {
+    margin-left: 38px;
+}
+
+.menu-section .col-5:last-child {
+    margin-left: 31px;
+}
+
+.menu-section .category {
+    margin-bottom: -13px;
+}
+
+.menu-section .category .title {
+    color: rgb(204,153,0);
+    font-size: 36px;
+    font-family: Yeseva, sans-serif;
+    line-height: 24px;
+    text-align: center;
+    padding: 0;
+    margin: 85px 0 0;
+}
+
+.menu-section .category .divider {
+    background: url("../../assets/images/menu_divider.png") -13px -10px no-repeat;
+    display: block;
+    margin: 28px auto 16px;
+    width: 241px;
+    height: 30px;
+}
+
+.menu-section .meal {
+    margin: 0 69px 35px;
+    position: relative;
+}
+
+.menu-section .meal.special {
+    border: 1px solid #e4d5a7;
+    margin: -5px 57px 25px;
+    padding: 5px 10px 10px;
+}
+
+.menu-section .meal.special:before {
+    content: "Special";
+    display: inline-block;
+    right: -1px;
+    top: -22px;
+    position: absolute;
+    padding: 3px 13px;
+    background: #e4d5a7;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.menu-section .meal .name {
+    font-family: Yeseva, sans-serif;
+    font-size: 21px;
+    color: #c89f2d;
+    width: 69%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.menu-section .meal .cost {
+    font-family: Yeseva, sans-serif;
+    font-size: 21px;
+    color: #c89f2d;
+    position: relative;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: right;
+}
+
+.menu-section .meal .divider {
+    background: url("../../assets/images/menu_item_divider.png") -8px -2px no-repeat;
+    display: block;
+    margin: 7px auto 10px;
+    width: 460px;
+    height: 4px;
+}
+
+.menu-section .meal .description {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+    padding: 0;
+    margin: 0;
+}

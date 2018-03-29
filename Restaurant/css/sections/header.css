@@ -1,0 +1,157 @@
+header {
+    background-image: url("../../assets/images/promo_background.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 140px;
+}
+
+header .shadow {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
+}
+
+header .nav-wrapper {
+    margin-bottom:95px;
+}
+
+header .logo {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+header .logo p {
+    font-family: Yeseva, sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+header .nav {
+    float: right;
+    margin-right: 37px;
+}
+
+header .nav-menu {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+
+header .nav-menu li {
+    float: left;
+    padding: 46px 15px;
+    border: 3px solid transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    margin-right: 20px;
+}
+
+header .nav-menu li:last-child {
+    margin-right: 1px;
+}
+
+.nav-menu li a {
+    font-family: GentiumBasic, sans-serif;
+    font-size: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-menu li:hover {
+    cursor: pointer;
+    border-top: 3px solid #cac8bf;
+}
+
+.nav-menu li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .nav-socials {
+    display: inline-block;
+    margin-right: -16px;
+    vertical-align: middle;
+}
+
+header .nav-socials a {
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    margin-right: 12px;
+    transition: background .3s;
+}
+
+header .nav-socials .twitter-social {
+    background: url("../../assets/images/socials_sprite.png") -2px 0 no-repeat;
+}
+
+header .nav-socials .twitter-social:hover {
+    background: url("../../assets/images/socials_sprite_active.png") -2px 0 no-repeat;
+}
+
+header .nav-socials .youtube-social {
+    background: url("../../assets/images/socials_sprite.png") -40px 0 no-repeat;
+}
+
+header .nav-socials .youtube-social:hover {
+    background: url("../../assets/images/socials_sprite_active.png") -40px 0 no-repeat;
+}
+
+header .nav-socials .facebook-social {
+    background: url("../../assets/images/socials_sprite.png") -75px 0 no-repeat;
+}
+
+header .nav-socials .facebook-social:hover {
+    background: url("../../assets/images/socials_sprite_active.png") -75px 0 no-repeat;
+}
+
+header .title {
+    font-family: Yeseva, sans-serif;
+    font-size: 90px;
+    text-align: center;
+    color: #ffffff;
+    width: 970px;
+    margin: 0 auto;
+    line-height: 119px;
+}
+
+header .divider {
+    background: url("../../assets/images/divider.png") -5px -10px no-repeat;
+    display: block;
+    margin: 19px auto 30px;
+    width: 245px;
+    height: 50px;
+}
+
+header .action-buttons {
+    text-align: center;
+}
+
+header .btn {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .2s;
+    padding: 19px 51px;
+}
+
+header .btn:hover {
+    text-decoration: none;
+    transform: scale(1.03);
+}
+
+header .btn-dark {
+    background-color: rgba(0,0,0,0.7019607843137254);
+    margin-right: 30px;
+}
+
+header .btn-light {
+    background-color: rgba(255,255,255,0.2784313725490196);
+}

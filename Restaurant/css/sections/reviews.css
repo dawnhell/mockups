@@ -1,0 +1,64 @@
+.reviews-section {
+    background-image: url("../../assets/images/reviews_background.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 102px;
+}
+
+.reviews-section .col-7 {
+    float: none;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 76px 0 101px;
+}
+
+.reviews-section .title {
+    text-align: center;
+    font-family: Yeseva, sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.reviews-section .divider {
+    background: url("../../assets/images/ingredients_divider.png") -21px -9px no-repeat;
+    display: block;
+    margin: 12px auto 18px;
+    width: 241px;
+    height: 30px;
+}
+
+.reviews-section .review {
+    text-align: center;
+    font-family: GentiumBasic, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin: 0 0 34px;
+    padding: 0 90px;
+    position: relative;
+    line-height: 45px;
+}
+
+.reviews-section .review:before {
+    content: "“";
+    display: inline-block;
+    font-family: Yeseva, sans-serif;
+    font-size: 91px;
+    font-weight: normal;
+    color: #f2f4f4;
+    position: absolute;
+    top: 6px;
+    left: 28px;
+}
+
+.reviews-section .from {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
