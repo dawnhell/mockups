@@ -1,0 +1,32 @@
+{
+  "name": "discovery-one",
+  "version": "0.0.1",
+  "description": "mockup",
+  "main": "index.js",
+  "author": "Uladzislau Klachkou",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "autoprefixer": "^9.5.1",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^2.0.2",
+    "css-loader": "^2.1.1",
+    "eslint-config-wesbos": "^0.0.19",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-md5-hash": "^0.0.6"
+  }
+}
