@@ -1,3 +1,7 @@
-h1 {
-  color: red;
-}
+@import '01-base/index';
+@import '02-components/index';
+@import '03-layout/index';
+@import '04-pages/index';
+@import '05-themes/index';
+@import '06-utils/index';
+@import '07-vendors/index';
