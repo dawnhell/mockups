@@ -23,6 +23,10 @@ module.exports = {
       {
         test: /\.s[c|a]ss$/,
         use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader']
+      },
+      {
+        test: /\.png$/,
+        loader: 'file-loader'
       }
     ]
   },
@@ -38,5 +42,10 @@ module.exports = {
       filename: 'index.html'
     }),
     new WebpackMd5Hash()
-  ]
+  ],
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000
+  }
 };

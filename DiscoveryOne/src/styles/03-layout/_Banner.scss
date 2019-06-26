@@ -1,0 +1,100 @@
+.Banner {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../assets/banner_background.png');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 0 75px;
+
+    .logo {
+      span {
+        color: $color-primary-light;
+        font-size: 2.1875rem;
+        font-weight: $font-black;
+      }
+    }
+
+    nav {
+      a {
+        color: $color-primary-light;
+        border-bottom: 2px solid transparent;
+        display: inline-block;
+        font-size: 0.9375rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: $font-medium;
+        transition: border-bottom-color .3s;
+        margin-left: 45px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:hover,
+        &.active {
+          border-bottom: 2px solid $color-link-active;
+        }
+      }
+    }
+  }
+
+  .heading {
+    text-align: center;
+
+    h1 {
+      color: $color-primary-light;
+      font-size: 15.875rem;
+      font-weight: $font-black;
+      line-height: 1;
+      margin: 0;
+    }
+
+    .sub-heading {
+      color: $color-primary-light;
+      font-size: 2.375rem;
+      font-weight: $font-light;
+      margin: 0 0 80px;
+    }
+
+    .red-text {
+      color: $color-red;
+    }
+
+    .description {
+      color: $color-primary-light;
+      font-size: 1.5625rem;
+      font-weight: $font-light;
+      margin: 0;
+    }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+
+    .social {
+      margin: 0 15px;
+
+      a {
+        color: $color-primary-light;
+        text-decoration: none;
+        transition: color .3s;
+
+        &:hover {
+          color: $color-link-active;
+        }
+      }
+    }
+  }
+}

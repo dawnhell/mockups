@@ -1,13 +1,46 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <title>Discovery One</title>
-        <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
-    </head>
-    <body>
-        <h1>lol</h1>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-        <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
-    </body>
+    <title>Discovery One</title>
+
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <section class="Banner">
+    <header>
+      <div class="logo">
+        <span>Discovery</span>
+      </div>
+
+      <nav>
+        <a href="#" class="active">home</a>
+        <a href="#">about us</a>
+        <a href="#">projects</a>
+        <a href="#">the app</a>
+        <a href="#">chat with us</a>
+      </nav>
+    </header>
+
+    <div class="heading">
+      <h1>Discovery</h1>
+
+      <p class="sub-heading">An <span class="red-text">elegant</span> One Page template.</p>
+
+      <p class="description">We're a professional agency</p>
+    </div>
+
+    <div class="socials">
+      <div class="social"><a href="#" class="fab fa-dribbble"></a></div>
+      <div class="social"><a href="#" class="fab fa-behance"></a></div>
+      <div class="social"><a href="#" class="fab fa-twitter"></a></div>
+      <div class="social"><a href="#" class="fab fa-facebook-f"></a></div>
+    </div>
+  </section>
+
+  <script src="https://kit.fontawesome.com/417c0ff342.js"></script>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
 </html>
