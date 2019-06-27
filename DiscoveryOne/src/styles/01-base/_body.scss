@@ -16,3 +16,13 @@ body {
     font-size: 1.375rem;
   }
 }
+
+::-moz-selection {
+  color: $color-primary-light;
+  background: $color-primary-dark;
+}
+
+::selection {
+  color: $color-primary-light;
+  background: $color-primary-dark;
+}

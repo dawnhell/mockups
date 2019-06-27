@@ -7,40 +7,51 @@
 
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   </head>
   <body>
-  <section class="Banner">
-    <header>
-      <div class="logo">
-        <span>Discovery</span>
+    <section class="Banner section scrollspy" id="Banner">
+      <header class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Discovery</a>
+
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#Banner">home</a></li>
+              <li><a href="#History">about us</a></li>
+              <li><a href="#">projects</a></li>
+              <li><a href="#">the app</a></li>
+              <li><a href="#">chat with us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div class="heading">
+        <h1>Discovery</h1>
+
+        <p class="sub-heading">An <span class="red-text">elegant</span> One Page template.</p>
+
+        <p class="description">We're a professional agency</p>
       </div>
 
-      <nav>
-        <a href="#" class="active">home</a>
-        <a href="#">about us</a>
-        <a href="#">projects</a>
-        <a href="#">the app</a>
-        <a href="#">chat with us</a>
-      </nav>
-    </header>
+      <div class="socials">
+        <div class="social"><a href="#" class="fab fa-dribbble"></a></div>
+        <div class="social"><a href="#" class="fab fa-behance"></a></div>
+        <div class="social"><a href="#" class="fab fa-twitter"></a></div>
+        <div class="social"><a href="#" class="fab fa-facebook-f"></a></div>
+      </div>
+    </section>
 
-    <div class="heading">
-      <h1>Discovery</h1>
+    <section class="History section scrollspy" id="History">
+      <div class="heading">
+        <p>We're here</p>
+        <h2>Since 1989</h2>
+      </div>
+    </section>
 
-      <p class="sub-heading">An <span class="red-text">elegant</span> One Page template.</p>
-
-      <p class="description">We're a professional agency</p>
-    </div>
-
-    <div class="socials">
-      <div class="social"><a href="#" class="fab fa-dribbble"></a></div>
-      <div class="social"><a href="#" class="fab fa-behance"></a></div>
-      <div class="social"><a href="#" class="fab fa-twitter"></a></div>
-      <div class="social"><a href="#" class="fab fa-facebook-f"></a></div>
-    </div>
-  </section>
-
-  <script src="https://kit.fontawesome.com/417c0ff342.js"></script>
-  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+    <script src="https://kit.fontawesome.com/417c0ff342.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
   </body>
 </html>
